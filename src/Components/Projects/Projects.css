@@ -1,0 +1,50 @@
+.bg-set{
+    background-color:rgba(220, 220, 220, 0.514);
+}
+.name-title{
+    color:dodgerblue;
+    font-size: 180%;
+    font-weight: 800;
+}
+.seemore{
+    font-weight: 700;
+    color: rgb(92, 89, 89);
+}
+.recipes-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.recipes-title{
+    text-align: center;
+    color:rgb(11, 131, 250);
+    font-size: 300%;
+    font-weight: 700;
+}
+.mng-tool{
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: 600;
+}
+.title-style{
+    font-weight: 800;
+    color: tomato;
+}
+
+/* Make recipes responsive */
+@media only screen and (max-width:576px){
+    .recipes-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .recipes-title{
+        text-align: center;
+        color:darkred;
+        margin-top: 7%;
+        font-size: 200%;
+        font-weight: 600;
+        margin-bottom: 4%;
+        color:rgba(0, 0, 255, 0.603);
+    }
+}

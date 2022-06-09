@@ -1,0 +1,14 @@
+.banner{
+    text-align: start;
+}
+.banner-image{
+    width: 50%;
+    height: 10%;
+}
+
+@media only screen and (max-width:576px) {
+    .banner-image{
+        width: 10%;
+        height: 10%;
+    }
+}
