@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
-
+import './Contact.css'
 
 const Contact = () => {
     const Result = () => {
@@ -26,8 +26,8 @@ const Contact = () => {
         showResult(false);
     },5000)
     return (
-        <form action='' onSubmit={sendEmail}>
-            <div style={{ 'background-color': 'blue' }} className='py-14'>
+        <form id='contact' action='' onSubmit={sendEmail}>
+            <div className='py-14 contact-form-bg-set'>
                 <div className='text-center pb-14 text-white'>
                     <p className='text-xl text-white font-bold bg-clip-text bg-gradient-to-br from-accent to-secondary'>
                         Contact Form

@@ -1,11 +1,27 @@
 .banner{
     text-align: start;
 }
-.banner-image{
-    width: 50%;
-    height: 10%;
+/* .banner-image-style{
+    width: 30%;
+} */
+.name-style{
+    color: dodgerblue;
 }
-
+.title-style{
+    color: burlywood;
+}
+.about-style{
+    font-size: 150%;
+    font-weight: 600;
+}
+.name-again-style{
+    color: dodgerblue;
+    font-weight: 700;
+}
+.btn-style-set-resume{
+    background-color: rgba(255, 99, 71, 0.979);
+    border: none;
+}
 @media only screen and (max-width:576px) {
     .banner-image{
         width: 10%;
